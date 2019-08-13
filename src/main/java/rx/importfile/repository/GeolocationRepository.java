@@ -1,9 +1,9 @@
 package rx.importfile.repository;
 
-import com.findhotel.ipaddress.model.Geolocation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
+import rx.importfile.model.Geolocation;
 
 @Component
 @RequiredArgsConstructor

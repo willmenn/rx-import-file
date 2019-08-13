@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Data
 @Configuration
-@ConfigurationProperties(prefix = "import")
+@ConfigurationProperties(prefix = "application.import")
 public class ImportProperties {
     private String filePath;
     private String table;
