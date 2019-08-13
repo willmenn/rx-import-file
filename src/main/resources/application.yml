@@ -1,0 +1,17 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+application:
+  jdbc:
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/findhotel?serverTimezone=CET
+    user: user
+    pass: root
+
+  import:
+    file-path: data_dump.csv
+    table: IPADDRESS
+    batch-size: 1000
